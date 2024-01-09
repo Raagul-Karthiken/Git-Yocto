@@ -1,0 +1,24 @@
+From 5bf876f79dae5dc547e99a4ed278582f96e1956f Mon Sep 17 00:00:00 2001
+From: raagul <raghulkarthikeyansmct2019@citchennai.net>
+Date: Wed, 3 Jan 2024 05:43:01 +0000
+Subject: [PATCH] Added another line
+
+---
+ add.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/add.c b/add.c
+index 594f04f..2ec6316 100644
+--- a/add.c
++++ b/add.c
+@@ -10,6 +10,7 @@ int main()
+ 	printf("Sum of 2 Numbers : %d\n",x+y);
+ 	printf("\n\n---HAVE A GOOD DAY---\n\n");
+ 	printf("GOOD BYE\n");
++	printf("..............\n");
+ 	return 0;
+ }
+ 
+-- 
+2.34.1
+

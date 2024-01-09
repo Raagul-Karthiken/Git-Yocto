@@ -1,0 +1,24 @@
+From 495fc54954b21075f3be1bd1e52c7430a0a18b5e Mon Sep 17 00:00:00 2001
+From: Anandhan <banandhan24@gmail.com>
+Date: Thu, 4 Jan 2024 12:07:33 +0000
+Subject: [PATCH] Combining patches
+
+---
+ add.c | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/add.c b/add.c
+index 2ec6316..594f04f 100644
+--- a/add.c
++++ b/add.c
+@@ -10,7 +10,6 @@ int main()
+ 	printf("Sum of 2 Numbers : %d\n",x+y);
+ 	printf("\n\n---HAVE A GOOD DAY---\n\n");
+ 	printf("GOOD BYE\n");
+-	printf("..............\n");
+ 	return 0;
+ }
+ 
+-- 
+2.34.1
+

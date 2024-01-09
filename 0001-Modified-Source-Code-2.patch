@@ -1,0 +1,25 @@
+From fa1085f29c43ca1278025b8dfc8c12fe278e586a Mon Sep 17 00:00:00 2001
+From: raagul <raghulkarthikeyansmct2019@citchennai.net>
+Date: Thu, 28 Dec 2023 15:52:44 +0530
+Subject: [PATCH] Modified Source Code 2
+
+---
+ add.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/add.c b/add.c
+index 778320a..bc9625b 100644
+--- a/add.c
++++ b/add.c
+@@ -8,7 +8,7 @@ int main()
+ 	printf("Enter a number : ");
+ 	scanf("%d",&y);
+ 	printf("Sum of 2 Numbers : %d\n",x+y);
+-	pritnf("\n\n---HAVE A GOOD DAY---\n\n");
++	printf("\n\n---HAVE A GOOD DAY---\n\n");
+ 	return 0;
+ }
+ 
+-- 
+2.34.1
+
